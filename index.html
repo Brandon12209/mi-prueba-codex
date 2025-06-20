@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEROBRINGAS - Volamos alto contigo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">AEROBRINGAS</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#vuelos">Ver Vuelos</a>
+            <a href="#boletos">Boletos</a>
+            <a href="#promociones">Promociones</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <video src="video-placeholder.mp4" autoplay muted loop></video>
+        <div class="hero-content">
+            <h1>Volamos alto contigo</h1>
+            <a class="btn" href="#vuelos">Ver Vuelos</a>
+        </div>
+    </section>
+
+    <section id="vuelos" class="vuelos">
+        <h2>Ver Vuelos</h2>
+        <div class="cards">
+            <!-- Ejemplo de tarjeta de vuelo -->
+            <div class="card">
+                <img src="destino1.jpg" alt="Destino 1">
+                <h3>Cancún</h3>
+                <p>12:00 PM - 10/10/2024</p>
+                <p class="precio">$199 USD</p>
+                <button>Reservar</button>
+            </div>
+            <div class="card">
+                <img src="destino2.jpg" alt="Destino 2">
+                <h3>Bogotá</h3>
+                <p>9:00 AM - 12/10/2024</p>
+                <p class="precio">$249 USD</p>
+                <button>Reservar</button>
+            </div>
+            <div class="card">
+                <img src="destino3.jpg" alt="Destino 3">
+                <h3>Lima</h3>
+                <p>6:00 PM - 15/10/2024</p>
+                <p class="precio">$220 USD</p>
+                <button>Reservar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="boletos" class="promociones">
+        <h2>Precios y Promociones</h2>
+        <div class="promo-cards">
+            <div class="promo-card">
+                <h3>Cancún</h3>
+                <p>Económica: $199</p>
+                <p>Ejecutiva: $399</p>
+            </div>
+            <div class="promo-card oferta">
+                <h3>Bogotá</h3>
+                <p>Económica: $249</p>
+                <p>Ejecutiva: $449</p>
+            </div>
+            <div class="promo-card">
+                <h3>Lima</h3>
+                <p>Económica: $220</p>
+                <p>Ejecutiva: $420</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="chatbot">
+        <button id="chat-toggle">Chat</button>
+        <div id="chat-window">
+            <div id="chat-messages"></div>
+        </div>
+    </div>
+
+    <footer id="contacto">
+        <div class="info">
+            <p>Contacto: contacto@aerobringas.com</p>
+            <p>Tel: +1 234 567 890</p>
+        </div>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="links">
+            <a href="#">Política de privacidad</a>
+            <a href="#">Términos</a>
+            <a href="#">Ayuda</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
